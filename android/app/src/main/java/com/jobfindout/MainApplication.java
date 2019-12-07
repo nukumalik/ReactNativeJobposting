@@ -1,4 +1,4 @@
-package com.reactnativejobposting;
+package com.jobfindout;
 
 import android.app.Application;
 import android.content.Context;

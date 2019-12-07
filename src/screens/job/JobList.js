@@ -148,18 +148,18 @@ const JobList = props => {
 					added={() => goAdd()}
 				/>
 			) : (
-				<_Search
-					pressed={() => setIsSearch(false)}
-					changed={text => {
-						setName(text)
-						if (name.length >= 2) {
-							goFilter()
-						} else {
-							props.dispatch(allJob())
-						}
-					}}
-				/>
-			)}
+					<_Search
+						pressed={() => setIsSearch(false)}
+						changed={text => {
+							setName(text)
+							if (name.length >= 2) {
+								goFilter()
+							} else {
+								props.dispatch(allJob())
+							}
+						}}
+					/>
+				)}
 			{filtered && (
 				<View style={{ padding: 15, height: 200 }}>
 					<View style={{}}>

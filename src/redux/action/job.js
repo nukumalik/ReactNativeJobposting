@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URI = 'http://localhost:5000/api/v1/jobs/'
+const URI = 'https://jobfindout.online/api/v1/jobs/'
 
 export const allJob = (name, company, limit, orderby) => {
 	let query
@@ -10,7 +10,7 @@ export const allJob = (name, company, limit, orderby) => {
 				`?name=${name}&company=${company}&limit=${limit}&orderby=${orderby}`,
 		)
 	} else {
-		query = axios.get(URI + '?orderby=updated_at')
+		query = axios.get(URI + '?limit=10&orderby=updated_at')
 	}
 	return {
 		type: 'ALL_JOB',
