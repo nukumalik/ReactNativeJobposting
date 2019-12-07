@@ -8,20 +8,7 @@ For the back end you can clone on this project: https://github.com/nukumalik/job
 
 ## Screenshots
 
-Login Screen
-![Job List](./SS/Login.png)
-
-Home / Job List Screen
-![Job List](./SS/JobList.png)
-
-Company List Screen
-![Job List](./SS/CompanyList.png)
-
-Job Detail Screen
-![Job List](./SS/JobDetail.png)
-
-Add Job Screen
-![Job List](./SS/Jobfindout/React/JobUpdate.png)
+![Job List](./SS/SS.png)
 
 ## Prerequiste
 
